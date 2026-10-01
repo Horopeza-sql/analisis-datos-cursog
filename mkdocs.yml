@@ -1,0 +1,52 @@
+site_name: Programa de Análisis de Datos desde Cero
+site_description: Curso práctico de SQL, Python, R, Power BI y Tableau enfocado en casos reales de negocio.
+site_author: Humberto Oropeza
+
+theme:
+  name: material
+  language: es
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-7
+        name: Cambiar a modo oscuro
+    - scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-4
+        name: Cambiar a modo claro
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - toc:
+      permalink: true
+      toc_depth: 2
+
+nav:
+  - Inicio: index.md
+  - Roadmap del Programa: roadmap.md
+  - Fase 1 · SQL:
+      - Introducción y Entorno: 01-introduccion.md
+      - Fundamentos de BD: 02-fundamentos-bd.md
+      - Consultas Esenciales: 03-consultas-sql.md
+      - Análisis y Agregaciones: 04-analisis-sql.md
+      - Relaciones y Modelado: 05-relaciones-join.md
+      - SQL Avanzado: 06-sql-avanzado.md
+      - Objetos y Vistas: 07-diseno-objetos.md
+      - Administración Básica: 08-administracion.md
+      - Proyecto Integrador: 09-proyecto-final.md
+      - Referencia Rápida: referencia-rapida.md
