@@ -23,6 +23,6 @@
   - Estructura de repositorio y MkDocs configurada (`mkdocs.yml`).
   - Portada (`index.md`) y Roadmap (`roadmap.md`) creados en `docs/`.
   - Módulo 1 (`01-introduccion.md`) redactado.
-  - Conexión y prueba ejecutada con éxito en MySQL Workbench.
-- **Pendiente para la próxima sesión:** 
-  - Módulo 2 (`02-fundamentos-bd.md`): Crear la base de datos `sistema_ventas` y las tablas `clientes` y `productos` (DDL).
+  - Módulo 2 (`02-fundamentos-bd.md`) completado: Base de datos `sistema_ventas` y tablas `clientes` y `productos` creadas en MySQL.
+- **Pendiente:** 
+  - Módulo 3 (`03-manipulacion-datos.md`): Manipulación de Datos (DML) con `INSERT`, `SELECT`, `UPDATE` y `DELETE`.
